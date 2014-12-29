@@ -1,0 +1,8 @@
+# order value {} not present so entry will be appended 
+# to current children
+
+dn: olcDatabase=hdb,cn=config
+objectClass: olcHdbConfig
+olcDatabase: hdb
+olcDbDirectory: /var/db/new-db
+olcSuffix: BASE_DN
